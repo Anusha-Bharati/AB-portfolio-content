@@ -4,7 +4,7 @@
     "title": "Software Engineer | Data & Machine Learning",
     "description": "Software Engineer with 7+ years of experience building enterprise applications and data-intensive systems, currently expanding into applied data science and machine learning.",
     "resumeUrl": "https://raw.githubusercontent.com/Anusha-Bharati/AB-portfolio-content/main/assets/Anusha_Bharati_CV.pdf",
-    "profileImage": "https://raw.githubusercontent.com/Anusha-Bharati/AB-portfolio-content/main/assets/profile.webp",
+    "profileImage": "https://raw.githubusercontent.com/Anusha-Bharati/AB-portfolio-content/main/assets/anusha.jpg",
     "logo": "assets/logo2.png"
   },
   "navigation": [
@@ -35,7 +35,7 @@
       "My work combines software engineering, data processing and business problem-solving. I have designed full-stack applications, APIs, automated data workflows, operational dashboards and financial reporting systems using Angular, TypeScript, C#, ASP.NET, GraphQL and SQL Server.",
       "I am currently expanding my work into applied data science and machine learning using Python, Pandas and Scikit-learn, with a particular interest in intelligent systems, research-driven engineering and real-world data problems."
     ],
-    "image": "assets/anusha.jpeg"
+    "image": "https://raw.githubusercontent.com/Anusha-Bharati/AB-portfolio-content/main/assets/anusha.jpg"
   },
   "skills": {
     "title": "Skills",
