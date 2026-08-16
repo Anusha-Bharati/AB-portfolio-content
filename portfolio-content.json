@@ -3,8 +3,8 @@
     "name": "Anusha Bharati",
     "title": "Software Engineer | Data & Machine Learning",
     "description": "Software Engineer with 7+ years of experience building enterprise applications and data-intensive systems, currently expanding into applied data science and machine learning.",
-    "resumeUrl": "/assets/cv.pdf",
-    "profileImage": "assets/anusha.jpeg",
+    "resumeUrl": "https://raw.githubusercontent.com/Anusha-Bharati/AB-portfolio-content/main/assets/Anusha_Bharati_CV.pdf",
+    "profileImage": "https://raw.githubusercontent.com/Anusha-Bharati/AB-portfolio-content/main/assets/profile.webp",
     "logo": "assets/logo2.png"
   },
   "navigation": [
