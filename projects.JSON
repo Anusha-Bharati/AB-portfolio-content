@@ -1,0 +1,20 @@
+[
+  {
+    "id": "titanic-ml",
+    "title": "Titanic Survival Prediction",
+    "category": "Machine Learning",
+    "summary": "Exploring survival prediction and data leakage.",
+    "technologies": ["Python", "Pandas", "Scikit-learn"],
+    "image": "https://...",
+    "githubUrl": "https://github.com/...",
+    "featured": true
+  },
+  {
+    "id": "billing-platform",
+    "title": "Enterprise Billing Platform",
+    "category": "Software Engineering",
+    "summary": "Large-scale billing and financial processing platform.",
+    "technologies": ["Angular", "C#", "SQL Server"],
+    "featured": false
+  }
+]
