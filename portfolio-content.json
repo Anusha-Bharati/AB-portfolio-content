@@ -315,7 +315,7 @@
         "date": null,
         "status": "draft",
         "featured": true,
-        "visible": true,
+        "visible": false,
         "category": "Machine Learning",
         "tags": ["Data Leakage", "Model Evaluation", "Titanic", "Scikit-learn"],
         "excerpt": "A practical note on encountering data leakage while building a Titanic classifier, how it affected evaluation, and what I changed to make the experiment more trustworthy.",
