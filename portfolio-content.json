@@ -143,168 +143,166 @@
     ]
   },
   "projects": {
-    "title": "Selected Projects",
-    "subtitle": "A mix of applied machine learning and production software engineering.",
-    "items": [
-      [
-  {
-    "id": "buzzsieve-ai-research-intelligence",
-    "slug": "buzzsieve-ai-research-intelligence",
-    "title": "BuzzSieve — AI Research Intelligence & Publishing Pipeline",
-    "type": "Applied AI / Data Engineering",
-    "status": "in-progress",
-    "featured": true,
-    "visible": true,
-    "summary": "An evidence-focused research intelligence platform that discovers scientific literature, ranks studies using deterministic relevance and evidence scoring, generates structured research briefings with OpenAI, and automates content distribution workflows.",
-    "problem": "Reduce the time required to discover, evaluate and communicate useful scientific research by building an automated pipeline that filters large volumes of academic literature, prioritises higher-value studies and converts selected research into accessible, evidence-aware content.",
-    "technologies": [
-      "Python",
-      "FastAPI",
-      "PostgreSQL",
-      "SQLAlchemy",
-      "Alembic",
-      "OpenAI API",
-      "Pydantic",
-      "HTTPX",
-      "Docker",
-      "Europe PMC API",
-      "Buffer API",
-      "Threads API"
-    ],
-    "topics": [
-      "Applied AI",
-      "Data Engineering",
-      "Research Intelligence",
-      "LLM Structured Outputs",
-      "API Integration",
-      "Scientific Literature",
-      "Ranking Algorithms",
-      "Data Pipelines",
-      "Content Automation",
-      "PostgreSQL",
-      "Human-in-the-Loop AI",
-      "Cost-Controlled AI"
-    ],
-    "image": "",
-    "githubUrl": "https://github.com/Anusha-Bharati/BuzzSieve",
-    "demoUrl": "",
-    "researchNoteSlug": null,
-    "highlights": [
-      "Built a FastAPI-based research ingestion pipeline that queries Europe PMC using free-text searches and normalises scientific publication metadata into a PostgreSQL data model.",
-      "Designed a deterministic ranking engine combining relevance, evidence quality, publication freshness and accessibility so low-value papers can be filtered before any paid LLM processing occurs.",
-      "Implemented relevance scoring directly against paper titles and abstracts, allowing arbitrary user searches rather than relying on a fixed dictionary of predefined research topics.",
-      "Integrated OpenAI Structured Outputs with Pydantic schemas to convert selected studies into evidence briefs, key findings, limitations, evidence-strength assessments, newsletter content and concise social-media copy.",
-      "Separated deterministic data processing from LLM inference so hundreds of candidate papers can be searched and ranked locally while OpenAI is used only for the highest-value selected research.",
-      "Added prompt versioning and persisted generated research briefs and content candidates in PostgreSQL to support reproducibility, iteration and avoidance of unnecessary repeated API calls.",
-      "Implemented explicit token limits and content reuse to keep LLM generation costs controlled while producing multiple publishing outputs from a single model request.",
-      "Built automated publishing integration with Buffer for drafting and publishing standalone Threads posts, including channel discovery, API authentication, delivery-status handling and structured error reporting.",
-      "Designed a human-in-the-loop publishing workflow where generated content is persisted and reviewed before public distribution rather than allowing uncontrolled autonomous posting.",
-      "Developed database migrations with Alembic as generated content evolved from short social copy to larger structured newsletter and publishing payloads.",
-      "Currently extending the ranking system to prioritise studies with meaningful quantitative outcomes such as percentage changes, effect sizes and clearly interpretable numerical comparisons.",
-      "Planned extension introduces a separate web and RSS discovery pipeline for identifying evidence-backed articles outside Europe PMC while validating references against primary research sources."
-    ],
-    "confidentialityNote": null
-  },
-  {
-    "id": "healthkit-fitness-data-platform",
-    "slug": "healthkit-fitness-data-platform",
-    "title": "HealthKit Fitness Data Analytics Platform",
-    "type": "Data Engineering / Health Data",
-    "status": "in-progress",
-    "featured": true,
-    "visible": true,
-    "summary": "An end-to-end personal fitness data pipeline that extracts Apple Health data through a native Swift application, synchronises it with a backend API and stores structured health and activity data in PostgreSQL for longitudinal analysis.",
-    "problem": "Apple Health contains rich longitudinal fitness and physiological data but provides limited flexibility for custom analysis. The project creates an owned data pipeline for extracting, storing and analysing personal HealthKit data across workouts, activity and physiological metrics.",
-    "technologies": [
-      "Swift",
-      "Apple HealthKit",
-      "Python",
-      "FastAPI",
-      "PostgreSQL",
-      "SQLAlchemy",
-      "Docker",
-      "REST APIs",
-      "Xcode"
-    ],
-    "topics": [
-      "Apple HealthKit",
-      "Data Engineering",
-      "Health Data",
-      "Mobile Development",
-      "API Integration",
-      "Time-Series Data",
-      "PostgreSQL",
-      "Data Synchronisation",
-      "Fitness Analytics",
-      "Data Visualisation",
-      "Longitudinal Analysis"
-    ],
-    "image": "",
-    "githubUrl": "https://github.com/Anusha-Bharati/Athlume-Personal_Performance_Intelligence",
-    "demoUrl": "",
-    "researchNoteSlug": null,
-    "highlights": [
-      "Built a native Swift application using Apple HealthKit to request permission for and retrieve fitness and health measurements directly from the user's Apple Health data store.",
-      "Implemented communication between the iOS application and a FastAPI backend so HealthKit records can be synchronised outside the Apple ecosystem for custom processing and analysis.",
-      "Designed a PostgreSQL persistence layer for storing structured fitness and physiological observations rather than relying on transient mobile-only data.",
-      "Created an API-driven synchronisation workflow that separates mobile data extraction, backend validation and database persistence into independently maintainable components.",
-      "Containerised the backend and PostgreSQL environment with Docker to provide reproducible local development and simplify service configuration.",
-      "Designed the project around longitudinal data so future analysis can examine changes in fitness, training load, recovery and physiological signals over time.",
-      "Current development is focused on expanding HealthKit ingestion coverage, improving synchronisation reliability and normalising data from multiple Apple Health sample types.",
-      "Planned analytics work includes trend analysis, workout and recovery comparisons, derived fitness metrics and visual exploration of relationships between training behaviour and physiological measurements.",
-      "Future iterations will evaluate whether statistical and machine-learning techniques can identify meaningful patterns across training, recovery and performance data without treating correlation as medical diagnosis."
-    ],
-    "confidentialityNote": null
-  },
-      {
-        "id": "enterprise-billing-platform",
-        "slug": "enterprise-billing-platform",
-        "title": "Enterprise Billing Platform",
-        "type": "Professional Software Engineering",
-        "status": "completed",
-        "featured": true,
-        "visible": true,
-        "summary": "Enterprise billing software supporting customer billing, tariffs, invoices, fixed charges, financial processing and operational reporting.",
-        "problem": "Build maintainable software for complex billing and financial workflows while improving visibility, self-service and operational efficiency.",
-        "technologies": ["Angular", "TypeScript", "C#", "ASP.NET", "GraphQL", "SQL Server", "Azure DevOps"],
-        "topics": ["Enterprise Software", "Financial Systems", "APIs", "Data Processing", "Reporting"],
-        "image": "",
-        "githubUrl": "",
-        "demoUrl": "",
-        "researchNoteSlug": null,
-        "highlights": [
-          "Delivered full-stack billing, invoice, tariff and reporting functionality.",
-          "Built operational dashboards for billing performance, invoices and KPIs.",
-          "Created reporting capabilities supporting billing validation, profitability analysis and financial sign-off."
-        ],
-        "confidentialityNote": "Professional project. Implementation details and source code are not publicly available."
-      },
-      {
-        "id": "api-driven-data-processing",
-        "slug": "api-driven-data-processing",
-        "title": "API-Driven Data Processing Framework",
-        "type": "Professional Software Engineering",
-        "status": "completed",
-        "featured": true,
-        "visible": true,
-        "summary": "A validation and transformation workflow automating billing-data processing and exception handling.",
-        "problem": "Reduce manual processing time and engineering dependency in recurring billing-data workflows.",
-        "technologies": ["C#", "ASP.NET", "GraphQL", "SQL Server", "Angular", "Azure DevOps"],
-        "topics": ["Automation", "Data Validation", "APIs", "Exception Handling", "Business Process Automation"],
-        "image": "",
-        "githubUrl": "",
-        "demoUrl": "",
-        "researchNoteSlug": null,
-        "highlights": [
-          "Automated validation, transformation, exception handling and billing-data processing.",
-          "Eliminated 4–5 days of manual effort per billing cycle.",
-          "Reduced support dependency after data loads."
-        ],
-        "confidentialityNote": "Professional project. Implementation details and source code are not publicly available."
-      }
-    ]
-    ]
-  },
+  "title": "Selected Projects",
+  "subtitle": "A mix of applied machine learning and production software engineering.",
+  "items": [
+    {
+      "id": "buzzsieve-ai-research-intelligence",
+      "slug": "buzzsieve-ai-research-intelligence",
+      "title": "BuzzSieve — AI Research Intelligence & Publishing Pipeline",
+      "type": "Applied AI / Data Engineering",
+      "status": "in-progress",
+      "featured": true,
+      "visible": true,
+      "summary": "An evidence-focused research intelligence platform that discovers scientific literature, ranks studies using deterministic relevance and evidence scoring, generates structured research briefings with OpenAI, and automates content distribution workflows.",
+      "problem": "Reduce the time required to discover, evaluate and communicate useful scientific research by building an automated pipeline that filters large volumes of academic literature, prioritises higher-value studies and converts selected research into accessible, evidence-aware content.",
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "SQLAlchemy",
+        "Alembic",
+        "OpenAI API",
+        "Pydantic",
+        "HTTPX",
+        "Docker",
+        "Europe PMC API",
+        "Buffer API",
+        "Threads API"
+      ],
+      "topics": [
+        "Applied AI",
+        "Data Engineering",
+        "Research Intelligence"
+      ],
+      "image": "",
+      "githubUrl": "https://github.com/Anusha-Bharati/BuzzSieve",
+      "demoUrl": "",
+      "researchNoteSlug": null,
+      "highlights": [
+        "Built a FastAPI-based research ingestion pipeline that queries Europe PMC and normalises publication metadata into PostgreSQL.",
+        "Designed deterministic relevance and evidence ranking before paid LLM processing.",
+        "Integrated OpenAI Structured Outputs with Pydantic schemas for structured research briefings.",
+        "Built publishing integration with Buffer and Threads."
+      ],
+      "confidentialityNote": null
+    },
+
+    {
+      "id": "healthkit-fitness-data-platform",
+      "slug": "healthkit-fitness-data-platform",
+      "title": "HealthKit Fitness Data Analytics Platform",
+      "type": "Data Engineering / Health Data",
+      "status": "in-progress",
+      "featured": true,
+      "visible": true,
+      "summary": "An end-to-end personal fitness data pipeline that extracts Apple Health data through a native Swift application, synchronises it with a backend API and stores structured health and activity data in PostgreSQL for longitudinal analysis.",
+      "problem": "Create an owned data pipeline for extracting, storing and analysing personal HealthKit data across workouts, activity and physiological metrics.",
+      "technologies": [
+        "Swift",
+        "Apple HealthKit",
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "SQLAlchemy",
+        "Docker",
+        "REST APIs",
+        "Xcode"
+      ],
+      "topics": [
+        "Apple HealthKit",
+        "Data Engineering",
+        "Health Data",
+        "Time-Series Data"
+      ],
+      "image": "",
+      "githubUrl": "https://github.com/Anusha-Bharati/Athlume-Personal_Performance_Intelligence",
+      "demoUrl": "",
+      "researchNoteSlug": null,
+      "highlights": [
+        "Built a native Swift application using Apple HealthKit.",
+        "Connected the iOS application to a FastAPI backend.",
+        "Designed PostgreSQL persistence for longitudinal fitness data.",
+        "Containerised the backend and database with Docker."
+      ],
+      "confidentialityNote": null
+    },
+
+    {
+      "id": "enterprise-billing-platform",
+      "slug": "enterprise-billing-platform",
+      "title": "Enterprise Billing Platform",
+      "type": "Professional Software Engineering",
+      "status": "completed",
+      "featured": true,
+      "visible": true,
+      "summary": "Enterprise billing software supporting customer billing, tariffs, invoices, fixed charges, financial processing and operational reporting.",
+      "problem": "Build maintainable software for complex billing and financial workflows while improving visibility, self-service and operational efficiency.",
+      "technologies": [
+        "Angular",
+        "TypeScript",
+        "C#",
+        "ASP.NET",
+        "GraphQL",
+        "SQL Server",
+        "Azure DevOps"
+      ],
+      "topics": [
+        "Enterprise Software",
+        "Financial Systems",
+        "APIs",
+        "Data Processing",
+        "Reporting"
+      ],
+      "image": "",
+      "githubUrl": "",
+      "demoUrl": "",
+      "researchNoteSlug": null,
+      "highlights": [
+        "Delivered full-stack billing, invoice, tariff and reporting functionality.",
+        "Built operational dashboards for billing performance, invoices and KPIs.",
+        "Created reporting capabilities supporting billing validation and profitability analysis."
+      ],
+      "confidentialityNote": "Professional project. Implementation details and source code are not publicly available."
+    },
+
+    {
+      "id": "api-driven-data-processing",
+      "slug": "api-driven-data-processing",
+      "title": "API-Driven Data Processing Framework",
+      "type": "Professional Software Engineering",
+      "status": "completed",
+      "featured": true,
+      "visible": true,
+      "summary": "A validation and transformation workflow automating billing-data processing and exception handling.",
+      "problem": "Reduce manual processing time and engineering dependency in recurring billing-data workflows.",
+      "technologies": [
+        "C#",
+        "ASP.NET",
+        "GraphQL",
+        "SQL Server",
+        "Angular",
+        "Azure DevOps"
+      ],
+      "topics": [
+        "Automation",
+        "Data Validation",
+        "APIs",
+        "Exception Handling"
+      ],
+      "image": "",
+      "githubUrl": "",
+      "demoUrl": "",
+      "researchNoteSlug": null,
+      "highlights": [
+        "Automated validation, transformation and exception handling.",
+        "Eliminated 4–5 days of manual effort per billing cycle.",
+        "Reduced support dependency after data loads."
+      ],
+      "confidentialityNote": "Professional project. Implementation details and source code are not publicly available."
+    }
+  ]
+},
   "researchNotes": {
     "title": "Research Notes",
     "subtitle": "Things I encounter, question and learn while working through data and machine-learning problems.",
