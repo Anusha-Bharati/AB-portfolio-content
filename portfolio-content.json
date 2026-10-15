@@ -186,7 +186,7 @@
       "Cost-Controlled AI"
     ],
     "image": "",
-    "githubUrl": "<ADD_BUZZSIEVE_GITHUB_URL>",
+    "githubUrl": "https://github.com/Anusha-Bharati/BuzzSieve",
     "demoUrl": "",
     "researchNoteSlug": null,
     "highlights": [
@@ -240,7 +240,7 @@
       "Longitudinal Analysis"
     ],
     "image": "",
-    "githubUrl": "<ADD_HEALTHKIT_PROJECT_GITHUB_URL>",
+    "githubUrl": "https://github.com/Anusha-Bharati/Athlume-Personal_Performance_Intelligence",
     "demoUrl": "",
     "researchNoteSlug": null,
     "highlights": [
@@ -301,7 +301,7 @@
           "Reduced support dependency after data loads."
         ],
         "confidentialityNote": "Professional project. Implementation details and source code are not publicly available."
-      },
+      }
     ]
     ]
   },
