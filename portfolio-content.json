@@ -350,19 +350,26 @@
     "title": "Research Notes",
     "subtitle": "Things I encounter, question and learn while working through data and machine-learning problems.",
     "items": [
+       "items": [
       {
-        "id": "data-leakage-titanic",
-        "slug": "data-leakage-titanic",
-        "title": "When My Model Looked Too Good: Data Leakage in the Titanic Project",
+        "id": "buzzsieve-ranking-before-ai",
+        "slug": "buzzsieve-ranking-before-ai",
+        "title": "Why I Stopped Sending Every Paper to the LLM",
         "date": null,
         "status": "draft",
         "featured": true,
-        "visible": false,
-        "category": "Machine Learning",
-        "tags": ["Data Leakage", "Model Evaluation", "Titanic", "Scikit-learn"],
-        "excerpt": "A practical note on encountering data leakage while building a Titanic classifier, how it affected evaluation, and what I changed to make the experiment more trustworthy.",
-        "markdownUrl": "blog/data-leakage-titanic.md",
-        "relatedProjectId": "titanic-survival-prediction"
+        "visible": true,
+        "category": "Applied AI",
+        "tags": [
+          "LLMs",
+          "Research",
+          "Ranking",
+          "Data Pipelines",
+          "BuzzSieve"
+        ],
+        "excerpt": "While building BuzzSieve, I realised that finding papers was the easy part. The harder problem was deciding which ones were actually worth sending to the LLM.",
+        "markdownUrl": "blog/buzzsieve-ranking-before-ai.md",
+        "relatedProjectId": "buzzsieve-ai-research-intelligence"
       }
     ]
   },
