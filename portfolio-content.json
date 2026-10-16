@@ -144,90 +144,92 @@
   },
   "projects": {
   "title": "Selected Projects",
-  "subtitle": "A mix of applied machine learning and production software engineering.",
+  "subtitle": "Things I've built while exploring data, AI and software engineering.",
   "items": [
     {
       "id": "buzzsieve-ai-research-intelligence",
       "slug": "buzzsieve-ai-research-intelligence",
-      "title": "BuzzSieve — AI Research Intelligence & Publishing Pipeline",
-      "type": "Applied AI / Data Engineering",
+      "title": "BuzzSieve",
+      "type": "AI / Data Engineering",
       "status": "in-progress",
       "featured": true,
       "visible": true,
-      "summary": "An evidence-focused research intelligence platform that discovers scientific literature, ranks studies using deterministic relevance and evidence scoring, generates structured research briefings with OpenAI, and automates content distribution workflows.",
-      "problem": "Reduce the time required to discover, evaluate and communicate useful scientific research by building an automated pipeline that filters large volumes of academic literature, prioritises higher-value studies and converts selected research into accessible, evidence-aware content.",
+
+      "summary": "A research tool that finds scientific papers, ranks the useful ones and turns them into concise research briefs and publishable content.",
+
+      "problem": "I wanted a quicker way to cut through large amounts of research without sending everything through an LLM.",
+
       "technologies": [
         "Python",
         "FastAPI",
         "PostgreSQL",
-        "SQLAlchemy",
-        "Alembic",
         "OpenAI API",
-        "Pydantic",
-        "HTTPX",
         "Docker",
-        "Europe PMC API",
-        "Buffer API",
-        "Threads API"
+        "Europe PMC"
       ],
+
       "topics": [
         "Applied AI",
-        "Data Engineering",
-        "Research Intelligence"
+        "Research",
+        "Data Pipelines"
       ],
+
       "image": "",
       "githubUrl": "https://github.com/Anusha-Bharati/BuzzSieve",
       "demoUrl": "",
       "researchNoteSlug": null,
+
       "highlights": [
-        "Built a FastAPI-based research ingestion pipeline that queries Europe PMC and normalises publication metadata into PostgreSQL.",
-        "Designed deterministic relevance and evidence ranking before paid LLM processing.",
-        "Integrated OpenAI Structured Outputs with Pydantic schemas for structured research briefings.",
-        "Built publishing integration with Buffer and Threads."
+        "Searches and ranks scientific papers before using AI.",
+        "Generates structured research summaries with OpenAI.",
+        "Stores results in PostgreSQL so work can be reused instead of regenerated."
       ],
+
       "confidentialityNote": null
     },
 
     {
       "id": "healthkit-fitness-data-platform",
       "slug": "healthkit-fitness-data-platform",
-      "title": "HealthKit Fitness Data Analytics Platform",
-      "type": "Data Engineering / Health Data",
+      "title": "Athlume",
+      "type": "Health Data / Data Engineering",
       "status": "in-progress",
       "featured": true,
       "visible": true,
-      "summary": "An end-to-end personal fitness data pipeline that extracts Apple Health data through a native Swift application, synchronises it with a backend API and stores structured health and activity data in PostgreSQL for longitudinal analysis.",
-      "problem": "Create an owned data pipeline for extracting, storing and analysing personal HealthKit data across workouts, activity and physiological metrics.",
+
+      "summary": "A personal fitness data platform that pulls Apple Health data from an iPhone and stores it for deeper analysis over time.",
+
+      "problem": "Apple Health has loads of useful data, but I wanted more control over how I explore and analyse it.",
+
       "technologies": [
         "Swift",
-        "Apple HealthKit",
+        "HealthKit",
         "Python",
         "FastAPI",
         "PostgreSQL",
-        "SQLAlchemy",
-        "Docker",
-        "REST APIs",
-        "Xcode"
+        "Docker"
       ],
+
       "topics": [
-        "Apple HealthKit",
-        "Data Engineering",
         "Health Data",
-        "Time-Series Data"
+        "Fitness Analytics",
+        "Data Engineering"
       ],
+
       "image": "",
       "githubUrl": "https://github.com/Anusha-Bharati/Athlume-Personal_Performance_Intelligence",
       "demoUrl": "",
       "researchNoteSlug": null,
-      "highlights": [
-        "Built a native Swift application using Apple HealthKit.",
-        "Connected the iOS application to a FastAPI backend.",
-        "Designed PostgreSQL persistence for longitudinal fitness data.",
-        "Containerised the backend and database with Docker."
-      ],
-      "confidentialityNote": null
-    },
 
+      "highlights": [
+        "Built an iOS app to read fitness data from Apple Health.",
+        "Syncs the data to a FastAPI backend and PostgreSQL database.",
+        "Designed for analysing training, recovery and fitness trends over time."
+      ],
+
+      "confidentialityNote": null
+    }
+  ,
     {
       "id": "enterprise-billing-platform",
       "slug": "enterprise-billing-platform",
