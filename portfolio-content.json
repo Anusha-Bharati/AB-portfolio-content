@@ -267,7 +267,6 @@
       ],
       "confidentialityNote": "Professional project. Implementation details and source code are not publicly available."
     },
-
     {
       "id": "api-driven-data-processing",
       "slug": "api-driven-data-processing",
@@ -302,7 +301,49 @@
         "Reduced support dependency after data loads."
       ],
       "confidentialityNote": "Professional project. Implementation details and source code are not publicly available."
-    }
+    },
+    {
+  "id": "portfolio-v1",
+  "slug": "portfolio-v1",
+  "title": "Portfolio V1",
+  "type": "Frontend / Personal Project",
+  "status": "completed",
+  "featured": false,
+  "visible": true,
+
+  "summary": "The first version of my personal portfolio, built to showcase my software engineering experience, projects and technical skills.",
+
+  "problem": "My original portfolio focused more heavily on frontend development and my earlier software engineering work. I'm keeping it here as a snapshot of how both my work and design style have evolved.",
+
+  "technologies": [
+    "Angular",
+    "TypeScript",
+    "SCSS",
+    "Bootstrap"
+  ],
+
+  "topics": [
+    "Frontend",
+    "Responsive Design",
+    "Portfolio"
+  ],
+
+  "image": "",
+
+  "githubUrl": "https://github.com/Anusha-Bharati/AnushaB-portfolio",
+
+  "demoUrl": "https://anusha-bharati.netlify.app/",
+
+  "researchNoteSlug": null,
+
+  "highlights": [
+    "Responsive Angular portfolio with animated sections and navigation.",
+    "Showcases my earlier software engineering experience and projects.",
+    "The starting point for the current V2 redesign."
+  ],
+
+  "confidentialityNote": null
+}
   ]
 },
   "researchNotes": {
