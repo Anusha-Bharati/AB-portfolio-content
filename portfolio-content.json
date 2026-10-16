@@ -355,7 +355,7 @@
         "slug": "buzzsieve-ranking-before-ai",
         "title": "Why I Stopped Sending Every Paper to the LLM",
         "date": null,
-        "status": "draft",
+        "status": "published",
         "featured": true,
         "visible": true,
         "category": "Applied AI",
@@ -377,7 +377,7 @@
         "date": null,
         "status": "draft",
         "featured": true,
-        "visible": true,
+        "visible": false,
         "category": "Applied AI",
         "tags": [
           "LLMs",
