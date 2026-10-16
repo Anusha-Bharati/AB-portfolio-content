@@ -369,6 +369,26 @@
         "excerpt": "While building BuzzSieve, I realised that finding papers was the easy part. The harder problem was deciding which ones were actually worth sending to the LLM.",
         "markdownUrl": "blog/buzzsieve-ranking-before-ai.md",
         "relatedProjectId": "buzzsieve-ai-research-intelligence"
+      },
+       {
+        "id": "buzzsieve-ranking-before-ai1",
+        "slug": "buzzsieve-ranking-before-ai",
+        "title": "11Why I Stopped Sending Every Paper to the LLM",
+        "date": null,
+        "status": "draft",
+        "featured": true,
+        "visible": true,
+        "category": "Applied AI",
+        "tags": [
+          "LLMs",
+          "Research",
+          "Ranking",
+          "Data Pipelines",
+          "BuzzSieve"
+        ],
+        "excerpt": "While building BuzzSieve, I realised that finding papers was the easy part. The harder problem was deciding which ones were actually worth sending to the LLM.",
+        "markdownUrl": "blog/buzzsieve-ranking-before-ai.md",
+        "relatedProjectId": "buzzsieve-ai-research-intelligence"
       }
     ]
   },
