@@ -17,7 +17,8 @@
     { "id": "experience", "label": "Experience", "sectionId": "experience", "order": 2, "visible": true },
     { "id": "projects", "label": "Projects", "sectionId": "projects", "order": 3, "visible": true },
     { "id": "research-notes", "label": "Research Notes", "sectionId": "research-notes", "order": 4, "visible": true },
-    { "id": "contact", "label": "Contact", "sectionId": "contact", "order": 5, "visible": true }
+    { "id": "blog", "label": "Blog", "sectionId": "blog", "order": 5, "visible": true },
+    { "id": "contact", "label": "Contact", "sectionId": "contact", "order": 6, "visible": true }
   ],
   "hero": {
     "eyebrow": "Hello! Welcome, I am",
