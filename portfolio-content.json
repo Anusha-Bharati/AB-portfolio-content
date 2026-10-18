@@ -68,81 +68,105 @@
       }
     ]
   },
-  "experience": {
-    "title": "Experience",
-    "items": [
-      {
-        "id": "brave-new-world-software-developer",
-        "role": "Software Developer",
-        "company": "Brave New World",
-        "startDate": "2022-12",
-        "endDate": null,
-        "dateLabel": "Dec 2022 – Present",
-        "companyUrl": "",
-        "image": "assets/eve.jpeg",
-        "summary": "Own end-to-end development of enterprise billing and financial software, combining full-stack engineering, SQL-based analysis, automation and reporting.",
-        "highlights": [
-          "Owned the design, architecture, development and delivery of core functionality for a large-scale Managed Billing platform.",
-          "Analysed billing data using SQL during monthly bill runs, investigated billing exceptions and resolved data-quality issues with billing, finance and operational teams.",
-          "Built billing, invoice, tariff, financial operations and reporting modules using Angular, TypeScript, C#, ASP.NET, GraphQL and SQL Server.",
-          "Designed operational dashboards and Invoice/Margin Reporting capabilities for billing validation, profitability analysis and financial sign-off.",
-          "Designed an API-driven data-processing framework for validation, transformation and exception handling, eliminating 4–5 days of manual effort per billing cycle.",
-          "Managed CI/CD pipelines, releases and version control through Azure DevOps and Git."
-        ],
-        "technologies": ["Angular", "TypeScript", "C#", "ASP.NET", "GraphQL", "SQL Server", "Azure DevOps", "Git"]
-      },
-      {
-        "id": "university-bath-data-analyst",
-        "role": "Data Analyst (Part-Time)",
-        "company": "University of Bath",
-        "startDate": "2021-11",
-        "endDate": "2022-10",
-        "dateLabel": "Nov 2021 – Oct 2022",
-        "companyUrl": "https://www.bath.ac.uk/",
-        "image": "assets/uob.png",
-        "summary": "Managed academic datasets supporting institutional systems through data validation, reporting and quality assurance.",
-        "highlights": [
-          "Managed academic datasets through data validation, reporting and quality assurance.",
-          "Collaborated with university stakeholders to investigate data issues, maintain accurate course information and improve data integrity."
-        ],
-        "technologies": ["Data Analysis", "Data Validation", "Reporting", "Quality Assurance"]
-      },
-      {
-        "id": "accenture-application-development-analyst",
-        "role": "Application Development Analyst",
-        "company": "Accenture",
-        "startDate": "2020-12",
-        "endDate": "2021-09",
-        "dateLabel": "Dec 2020 – Sep 2021",
-        "companyUrl": "https://www.accenture.com/",
-        "image": "assets/Accenture.jpeg",
-        "summary": "Led development activities across enterprise financial applications, owning software enhancements from requirements through production support.",
-        "highlights": [
-          "Led development activities across enterprise financial applications and mentored three junior developers.",
-          "Owned software enhancements from requirement analysis through development, testing, deployment and production support.",
-          "Performed root-cause analysis of production issues and implemented permanent technical solutions.",
-          "Received the Accenture Celebrates Excellence Award for project delivery and client satisfaction."
-        ],
-        "technologies": ["Enterprise Applications", "SQL", "Production Support", "Agile"]
-      },
-      {
-        "id": "accenture-application-development-associate",
-        "role": "Application Development Associate",
-        "company": "Accenture",
-        "startDate": "2018-11",
-        "endDate": "2020-12",
-        "dateLabel": "Nov 2018 – Dec 2020",
-        "companyUrl": "https://www.accenture.com/",
-        "image": "assets/Accenture.jpeg",
-        "summary": "Developed and supported enterprise financial applications using Oracle PeopleSoft FSCM, SQL and PeopleCode.",
-        "highlights": [
-          "Worked across Accounts Payable, Accounts Receivable, Purchase Orders and General Ledger modules.",
-          "Performed testing, deployment and production-support activities for enterprise financial applications."
-        ],
-        "technologies": ["Oracle PeopleSoft FSCM", "SQL", "PeopleCode", "Financial Systems"]
-      }
-    ]
-  },
+ "experience": {
+  "title": "Experience",
+  "items": [
+    {
+      "id": "brave-new-world-software-developer",
+      "role": "Software Developer",
+      "company": "Brave New World",
+      "startDate": "2022-12",
+      "endDate": null,
+      "dateLabel": "Dec 2022 – Present",
+      "companyUrl": "",
+      "image": "assets/eve.jpeg",
+      "summary": "Own end-to-end development of an enterprise managed-billing platform, delivering full-stack functionality across Angular and TypeScript interfaces, C#/.NET services, GraphQL APIs and SQL Server data workflows. My work spans billing, invoicing, tariffs, financial operations and reporting, alongside monthly bill-run analysis, exception investigation and data-quality resolution with finance and operations teams. I also designed an API-driven processing framework that eliminated 4–5 days of manual effort per billing cycle.",
+      "highlights": [
+        "Owned the design, architecture, development and delivery of core functionality for a large-scale Managed Billing platform.",
+        "Analysed billing data using SQL during monthly bill runs, investigated billing exceptions and resolved data-quality issues with billing, finance and operational teams.",
+        "Built billing, invoice, tariff, financial operations and reporting modules using Angular, TypeScript, C#, ASP.NET, GraphQL and SQL Server.",
+        "Designed operational dashboards and Invoice/Margin Reporting capabilities for billing validation, profitability analysis and financial sign-off.",
+        "Designed an API-driven data-processing framework for validation, transformation and exception handling, eliminating 4–5 days of manual effort per billing cycle.",
+        "Managed CI/CD pipelines, releases and version control through Azure DevOps and Git."
+      ],
+      "technologies": [
+        "Angular",
+        "TypeScript",
+        "C#",
+        "ASP.NET",
+        "GraphQL",
+        "SQL Server",
+        "Azure DevOps",
+        "Git"
+      ]
+    },
+    {
+      "id": "university-bath-data-analyst",
+      "role": "Data Analyst (Part-Time)",
+      "company": "University of Bath",
+      "startDate": "2021-11",
+      "endDate": "2022-10",
+      "dateLabel": "Nov 2021 – Oct 2022",
+      "companyUrl": "https://www.bath.ac.uk/",
+      "image": "assets/uob.png",
+      "summary": "Supported the University’s academic data and institutional systems by maintaining course-related datasets, validating records, producing reports and carrying out quality checks. Partnered with university stakeholders to investigate discrepancies, resolve data issues and improve the accuracy and consistency of course information used across institutional processes.",
+      "highlights": [
+        "Managed academic datasets through data validation, reporting and quality assurance.",
+        "Collaborated with university stakeholders to investigate data issues, maintain accurate course information and improve data integrity."
+      ],
+      "technologies": [
+        "Data Analysis",
+        "Data Validation",
+        "Reporting",
+        "Quality Assurance"
+      ]
+    },
+    {
+      "id": "accenture-application-development-analyst",
+      "role": "Application Development Analyst",
+      "company": "Accenture",
+      "startDate": "2020-12",
+      "endDate": "2021-09",
+      "dateLabel": "Dec 2020 – Sep 2021",
+      "companyUrl": "https://www.accenture.com/",
+      "image": "assets/Accenture.jpeg",
+      "summary": "Delivered enhancements for enterprise financial applications across the software lifecycle, from requirements analysis and development through testing, deployment and production support. Investigated production incidents, traced root causes and implemented lasting fixes, while coordinating development activities and mentoring three junior developers. Recognised with the Accenture Celebrates Excellence Award for project delivery and client satisfaction.",
+      "highlights": [
+        "Led development activities across enterprise financial applications and mentored three junior developers.",
+        "Owned software enhancements from requirement analysis through development, testing, deployment and production support.",
+        "Performed root-cause analysis of production issues and implemented permanent technical solutions.",
+        "Received the Accenture Celebrates Excellence Award for project delivery and client satisfaction."
+      ],
+      "technologies": [
+        "Enterprise Applications",
+        "SQL",
+        "Production Support",
+        "Agile"
+      ]
+    },
+    {
+      "id": "accenture-application-development-associate",
+      "role": "Application Development Associate",
+      "company": "Accenture",
+      "startDate": "2018-11",
+      "endDate": "2020-12",
+      "dateLabel": "Nov 2018 – Dec 2020",
+      "companyUrl": "https://www.accenture.com/",
+      "image": "assets/Accenture.jpeg",
+      "summary": "Developed and supported enterprise financial applications using Oracle PeopleSoft FSCM, SQL and PeopleCode, working across Accounts Payable, Accounts Receivable, Purchase Orders and General Ledger. Contributed to application changes, testing, deployments and production support across core financial processes, gaining hands-on experience with enterprise systems and their operational requirements.",
+      "highlights": [
+        "Worked across Accounts Payable, Accounts Receivable, Purchase Orders and General Ledger modules.",
+        "Performed testing, deployment and production-support activities for enterprise financial applications."
+      ],
+      "technologies": [
+        "Oracle PeopleSoft FSCM",
+        "SQL",
+        "PeopleCode",
+        "Financial Systems"
+      ]
+    }
+  ]
+},
   "projects": {
   "title": "Selected Projects",
   "subtitle": "Things I've built while exploring data, AI and software engineering.",
