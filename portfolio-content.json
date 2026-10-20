@@ -47,6 +47,11 @@
     "title": "Skills",
     "groups": [
       {
+        "id": "certifications",
+        "label": "Certifications",
+        "items": ["Building with Claude API by Anthropic", "Introduction to Machine Learning by Google"]
+      },
+      {
         "id": "data-ml",
         "label": "Data & Machine Learning",
         "items": ["Python", "SQL", "Pandas", "NumPy", "Scikit-learn", "Exploratory Data Analysis", "Data Cleaning", "Feature Engineering", "Logistic Regression", "Random Forest", "Model Evaluation", "Data Visualisation"]
